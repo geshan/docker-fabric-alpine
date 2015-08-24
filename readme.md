@@ -38,3 +38,4 @@ You can even create an alias like below in your `.bashrc` or `.zshrc` file depen
 ```
 alias fab='docker run --rm -it -v "$PWD:/app" geshan/alpine-fabric fab'
 ```
+
