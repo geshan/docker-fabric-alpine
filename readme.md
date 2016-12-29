@@ -22,13 +22,13 @@ After pulling the image from docker registry, go into any project that has a fab
 Then run the following commands to run fabric:
 
 ```
-docker run --rm -it -v "$PWD:/app" geshan/alpine-fabric fab -l
+docker run --rm -it -v "$PWD:/app" geshan/fabric-alpine fab -l
 ```
 
 The above command will list your fabric tasks. You can use the command below to know the fabric version:
 
 ```
-docker run --rm -it -v "$PWD:/app" geshan/alpine-fabric fab --version
+docker run --rm -it -v "$PWD:/app" geshan/fabric-alpine fab --version
 ```
 
 ## As an alias
@@ -36,6 +36,6 @@ docker run --rm -it -v "$PWD:/app" geshan/alpine-fabric fab --version
 You can even create an alias like below in your `.bashrc` or `.zshrc` file depending on your shell:
 
 ```
-alias fab='docker run --rm -it -v "$PWD:/app" geshan/alpine-fabric fab'
+alias fab='docker run --rm -it -v "$PWD:/app" geshan/fabric-alpine fab'
 ```
 
