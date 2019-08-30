@@ -3,8 +3,8 @@
 This is a docker container for Python [Fabric](http://fabfile.org). It can be used with
 to deploy projects with Fabric fabfile. As this image is build on top of the
 [Alpine Linux](http://www.alpinelinux.org/) base image its very small at `~18 MB`.
-The image has Python 2.7.10 installed in it. Fabric version is Fabric 1.8.0
-and Paramiko is 1.15.2.
+The image has Python 2.7.16 installed in it. Fabric version is Fabric 1.14.0
+and Paramiko is 2.4.2.
 
 [![](https://images.microbadger.com/badges/image/geshan/fabric-alpine.svg)](https://microbadger.com/images/geshan/fabric-alpine "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/geshan/fabric-alpine.svg)](https://microbadger.com/images/geshan/fabric-alpine "Get your own version badge on microbadger.com")
