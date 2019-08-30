@@ -2,11 +2,12 @@
 
 This is a docker container for Python [Fabric](http://fabfile.org). It can be used with
 to deploy projects with Fabric fabfile. As this image is build on top of the
-[Alpine Linux](http://www.alpinelinux.org/) base image its very small at `~50 MB`.
+[Alpine Linux](http://www.alpinelinux.org/) base image its very small at `~18 MB`.
 The image has Python 2.7.10 installed in it. Fabric version is Fabric 1.8.0
 and Paramiko is 1.15.2.
 
-[![](https://badge.imagelayers.io/geshan/fabric-alpine:latest.svg)](https://imagelayers.io/?images=geshan/fabric-alpine:latest 'Get your own badge on imagelayers.io')
+[[![](https://images.microbadger.com/badges/image/geshan/fabric-alpine.svg)](https://microbadger.com/images/geshan/fabric-alpine "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/geshan/fabric-alpine.svg)](https://microbadger.com/images/geshan/fabric-alpine "Get your own version badge on microbadger.com")
 
 ## Pull it from docker registry
 
@@ -38,4 +39,3 @@ You can even create an alias like below in your `.bashrc` or `.zshrc` file depen
 ```
 alias fab='docker run --rm -it -v "$PWD:/app" geshan/fabric-alpine fab'
 ```
-
