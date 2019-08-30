@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3
 
 MAINTAINER Geshan Manandhar (http://geshan.com.np)
 
