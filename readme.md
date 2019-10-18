@@ -2,7 +2,7 @@
 
 This is a docker container for Python [Fabric](http://fabfile.org). It can be used with
 to deploy projects with Fabric fabfile. As this image is build on top of the
-[Alpine Linux](http://www.alpinelinux.org/) base image its very small at `~18 MB`.
+[Alpine Linux](http://www.alpinelinux.org/) base image its very small at `~20 MB`.
 The image has Python 3.8.0 installed in it. Fabric version is Fabric 2.5.0, Paramiko is 2.4.2 and
 Invoke is at 1.3.0.
 
